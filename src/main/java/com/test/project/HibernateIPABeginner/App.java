@@ -1,5 +1,7 @@
 package com.test.project.HibernateIPABeginner;
 
+import com.test.hib.controller.findUser_Hql;
+
 /**
  * Hello world!
  *
@@ -8,6 +10,13 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        findUser_Hql u = new findUser_Hql();
+//        u.findUser();
+//        u.findUserSelect();
+//        u.getRecordbyId();
+//        u.getrecords();
+//        u.getmaxSalary();
+        u.getMaxSalaryGroupBy();
+       
     }
 }
